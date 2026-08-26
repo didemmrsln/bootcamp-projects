@@ -25,7 +25,7 @@ bootcamp-projects/
 
 ## Statistical Analysis: Olist E-Commerce Analytics
 
-**Files:** `DAY_Olist.ipynb`, `Olist_Analysis_EN.pptx`
+**Files:** `DAY_Olist.ipynb`, `Olist_Analysis_EN.pdf`
 
 A hypothesis-driven analysis of the Olist Brazilian e-commerce dataset
 (~99,000 orders, 2016–2018), covering four axes: product segmentation,
