@@ -6,9 +6,6 @@ organized by skill area rather than by week. Each folder represents one
 category from my [portfolio site](#) (link once live) — click into a
 category to see the full notebook/deck behind the summary shown there.
 
-This repository is separate from my capstone project
-([moma_capstone](https://github.com/didemmrsln/moma_capstone)), which has
-its own dedicated repository given its scope.
 
 ## Structure
 
