@@ -12,20 +12,34 @@ category to see the full notebook/deck behind the summary shown there.
 ```
 bootcamp-projects/
 ├── machine-learning/
-│   └── Classification (PyCaret) and clustering (KMeans/DBSCAN) exercises
+│   ├── algebra-warmup/           Linear algebra warm-up (NumPy)
+│   ├── learning-curves/          Bias/variance and learning-curve diagnostics
+│   ├── linear-regression/        Linear regression, cross-validation, tuning
+│   ├── olist-order-features/     Feature engineering on Olist orders
+│   └── real-estate-estimator/    Matrix-solved price estimator
 ├── statistical-analysis/
-│   └── Hypothesis testing and exploratory analysis
+│   ├── DAY_Olist.ipynb           Olist hypothesis testing (see below)
+│   ├── Olist_Analysis_EN.pdf
+│   ├── exploratory-analysis/     EDA exercises
+│   └── olist-database-analysis/  SQL/PostgreSQL analysis of the Olist database
 ├── data-engineering-pipelines/
-│   └── dbt, BigQuery, Fivetran, and REST API exercises
-├── bi-visualization/
-│   └── Power BI and Looker Studio dashboards
-└── automation-version-control/
-    └── Git/GitHub workflow and Zapier automation exercises
+│   ├── context-and-setup/        Olist data model and environment setup
+│   ├── data-preparation/         Cleaning and preparation exercises
+│   ├── gwz-sales/                GreenWeez sales query (BigQuery)
+│   ├── gz-dbt-project/           dbt Cloud project scaffold
+│   ├── olist-package/            Reusable Python package for loading Olist data
+│   └── reviews-translator/       Review translation and theme analysis (API)
+└── python-fundamentals/
+    ├── distances/                Refactoring notebook code into modules
+    ├── farming-animals/          OOP: inheritance and polymorphism
+    └── farming-crops/            OOP: abstract base classes
 ```
+
+Each subfolder keeps the README from the standalone repository it came from.
 
 ## Statistical Analysis: Olist E-Commerce Analytics
 
-**Files:** `DAY_Olist.ipynb`, `Olist_Analysis_EN.pdf`
+**Files:** `statistical-analysis/DAY_Olist.ipynb`, `statistical-analysis/Olist_Analysis_EN.pdf`
 
 A hypothesis-driven analysis of the Olist Brazilian e-commerce dataset
 (~99,000 orders, 2016–2018), covering four axes: product segmentation,
