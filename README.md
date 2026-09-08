@@ -18,10 +18,9 @@ bootcamp-projects/
 │   ├── olist-order-features/     Feature engineering on Olist orders
 │   └── real-estate-estimator/    Matrix-solved price estimator
 ├── statistical-analysis/
-│   ├── DAY_Olist.ipynb           Olist hypothesis testing (see below)
-│   ├── Olist_Analysis_EN.pdf
 │   ├── exploratory-analysis/     EDA exercises
-│   └── olist-database-analysis/  SQL/PostgreSQL analysis of the Olist database
+│   ├── olist-database-analysis/  SQL/PostgreSQL analysis of the Olist database
+│   └── olist-hypothesis-testing/ Olist hypothesis testing (see below)
 ├── data-engineering-pipelines/
 │   ├── context-and-setup/        Olist data model and environment setup
 │   ├── data-preparation/         Cleaning and preparation exercises
@@ -39,7 +38,8 @@ Each subfolder keeps the README from the standalone repository it came from.
 
 ## Statistical Analysis: Olist E-Commerce Analytics
 
-**Files:** `statistical-analysis/DAY_Olist.ipynb`, `statistical-analysis/Olist_Analysis_EN.pdf`
+**Files:** `statistical-analysis/olist-hypothesis-testing/DAY_Olist.ipynb`,
+`statistical-analysis/olist-hypothesis-testing/Olist_Analysis_EN.pdf`
 
 A hypothesis-driven analysis of the Olist Brazilian e-commerce dataset
 (~99,000 orders, 2016–2018), covering four axes: product segmentation,
