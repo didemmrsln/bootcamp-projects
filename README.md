@@ -13,14 +13,29 @@ category to see the full notebook/deck behind the summary shown there.
 bootcamp-projects/
 ├── machine-learning/
 │   ├── algebra-warmup/           Linear algebra warm-up (NumPy)
+│   ├── electrocardiograms/       Classifying ECG signals
+│   ├── face-recognition-pca/     Unsupervised learning: PCA eigenfaces
+│   ├── gradient-descent/         Implementing gradient descent from scratch
+│   ├── image-compressor-kmeans/  Unsupervised learning: K-Means image compression
+│   ├── knn/                      KNN for house price estimation
 │   ├── learning-curves/          Bias/variance and learning-curve diagnostics
 │   ├── linear-regression/        Linear regression, cross-validation, tuning
+│   ├── logistic-regression/      Logistic regression
+│   ├── loss-functions/           Choosing and comparing loss functions
+│   ├── model-workflow/           Holdout, CV tuning, final test evaluation
 │   ├── olist-order-features/     Feature engineering on Olist orders
-│   └── real-estate-estimator/    Matrix-solved price estimator
+│   ├── real-estate-estimator/    Matrix-solved price estimator
+│   ├── regularization/           L1/L2 regularization
+│   ├── solvers/                  Solver comparison for logistic regression
+│   └── threshold-adjustment/     Tuning classification thresholds
 ├── statistical-analysis/
 │   ├── exploratory-analysis/     EDA exercises
+│   ├── olist-ceo-request/        Which underperforming sellers to remove (profit model)
 │   ├── olist-database-analysis/  SQL/PostgreSQL analysis of the Olist database
-│   └── olist-hypothesis-testing/ Olist hypothesis testing (see below)
+│   ├── olist-hypothesis-testing/ Olist hypothesis testing (see below)
+│   ├── olist-orders-regression/  Multivariate regression on review scores (statsmodels)
+│   ├── olist-sellers/            Seller-level dataset and performance analysis
+│   └── seaborn-regression/       Linear regression with seaborn and statsmodels
 ├── data-engineering-pipelines/
 │   ├── context-and-setup/        Olist data model and environment setup
 │   ├── data-preparation/         Cleaning and preparation exercises
